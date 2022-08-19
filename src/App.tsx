@@ -1,5 +1,4 @@
 import './App.css'
-import { ProjectList } from './components/ProjectList'
 
 function App() {
     return (
@@ -16,7 +15,24 @@ function App() {
                     </p>
                 </div>
                 <div className='project-list'>
-                    <ProjectList />
+                    <h3>Simple Animation 1</h3>
+                    <p>Image with infite translate Y </p>
+                    <div className='container-hex'>
+                        <img
+                            src='../images/hexagon.svg'
+                            alt='hexagon'
+                            id='hexagon'
+                        />
+                    </div>
+                    <h3>Simple Transition</h3>
+                    <p>Mouse hover rotate the image 60deg</p>
+                    <div className='container-hex'>
+                        <img
+                            src='../images/hexagon.svg'
+                            alt='hexagon'
+                            id='hexagon2'
+                        />
+                    </div>
                 </div>
             </div>
         </div>
